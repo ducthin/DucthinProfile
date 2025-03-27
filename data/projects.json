@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Portfolio Cá Nhân",
+    "description": "Trang web portfolio cá nhân được phát triển với Node.js và Express, cho phép quản lý thông tin hồ sơ và dự án thông qua giao diện admin.",
+    "link": "https://github.com/sample/portfolio"
+  },
+  {
+    "title": "Ứng dụng Quản lý Công việc",
+    "description": "Ứng dụng web quản lý công việc và dự án với các tính năng theo dõi thời gian, phân công nhiệm vụ và báo cáo tiến độ.",
+    "link": "https://github.com/sample/task-manager"
+  },
+  {
+    "title": "E-Commerce Platform",
+    "description": "Nền tảng thương mại điện tử với hệ thống quản lý sản phẩm, giỏ hàng và thanh toán trực tuyến được phát triển trên MERN stack.",
+    "link": "https://github.com/sample/ecommerce"
+  },
+  {
+    "title": "Ứng dụng Chat thời gian thực",
+    "description": "Ứng dụng chat thời gian thực sử dụng Socket.io và React, hỗ trợ chat nhóm, chat riêng tư và gửi file đa phương tiện.",
+    "link": "https://github.com/sample/realtime-chat"
+  }
+]
