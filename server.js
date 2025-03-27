@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const adminRoutes = require('./routes/admin');
@@ -7,6 +8,12 @@ const multer = require('multer');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Verify env variables before starting
+if (!process.env.ADMIN_USERNAME || !process.env.ADMIN_PASSWORD || !process.env.JWT_SECRET) {
+  console.error('Environment variables missing. Please check your .env file');
+  process.exit(1);
+}
 
 // Đường dẫn file lưu contact form
 const DATA_DIR = path.join(__dirname, 'data');
@@ -174,7 +181,7 @@ function verifyToken(req, res, next) {
     const bearer = bearerHeader.split(' ');
     const bearerToken = bearer[1];
     
-    jwt.verify(bearerToken, 'secretkey', (err, authData) => {
+    jwt.verify(bearerToken, process.env.JWT_SECRET, (err, authData) => {
       if (err) {
         return res.status(403).json({ success: false, message: 'Token không hợp lệ' });
       }

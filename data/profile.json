@@ -1,15 +1,10 @@
 {
   "name": "Trần Đức Thịnh",
-  "about": "Xin chào! Tôi là Trần Đức Thịnh, một lập trình viên full-stack với kinh nghiệm phong phú trong việc phát triển các ứng dụng web hiện đại. Chuyên môn của tôi bao gồm JavaScript, Node.js và các framework phổ biến.\n\nTôi có niềm đam mê mãnh liệt với việc tạo ra những sản phẩm số không chỉ hoạt động hiệu quả mà còn mang lại trải nghiệm người dùng tuyệt vời. Luôn không ngừng học hỏi công nghệ mới và áp dụng vào các dự án thực tế.\n\nNgoài công việc, tôi thích đóng góp cho cộng đồng mã nguồn mở và chia sẻ kiến thức qua các bài viết và hội thảo. Hãy liên hệ nếu bạn muốn hợp tác trong các dự án thú vị!",
+  "about": "\"Tôi là Trần Đức Thịnh, hay còn gọi là ducthin, một kỹ sư phần mềm chuyên viết code bá cháy, debug như ninja, thích uống cà phê để sống sót qua deadline và luôn sẵn sàng chiến đấu với những bug cứng đầu nhất!\"",
   "skills": [
-    "JavaScript",
-    "Node.js",
-    "Express",
-    "React",
-    "MongoDB",
-    "UI/UX Design",
-    "RESTful API",
-    "HTML/CSS"
+    "HTML",
+    "CSS",
+    "SPRING"
   ],
-  "imageUrl": "/uploads/profile-1743076715701-565771786.PNG"
+  "imageUrl": "http://localhost:3000/uploads/profile-1743079486118-45325252.JPG"
 }

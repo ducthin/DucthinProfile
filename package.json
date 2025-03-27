@@ -1,5 +1,5 @@
 {
-  "name": "Profile",
+  "name": "profile",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -13,9 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
-    "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.1.9"
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
